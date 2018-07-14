@@ -1,3 +1,12 @@
+header {
+  width: 90%;
+}
+.container .main-inner {
+  width: 90%;
+}
+.content-wrap {
+  width: calc(100% - 260px);
+}
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
@@ -454,7 +463,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .header-inner {
-    width: 73%;
+    width: 50%;
   }
 }
 .main {
@@ -471,7 +480,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .main-inner {
-    width: 73%;
+    width: 50%;
   }
 }
 .footer {
@@ -493,7 +502,7 @@ body {
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
-    width: 73%;
+    width: 50%;
   }
 }
 pre,
@@ -1861,7 +1870,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d0ba1c;
+  background: #79ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2543,7 +2552,7 @@ ul.breadcrumb li+li:last-child {
 }
 @media (min-width: 1600px) {
   .header {
-    width: 73%;
+    width: 50%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2561,14 +2570,14 @@ ul.breadcrumb li+li:last-child {
   top: 0;
   overflow: hidden;
   padding: 0;
-  width: 240px;
+  width: 300px;
   background: #fff;
   box-shadow: initial;
   border-radius: initial;
 }
 @media (min-width: 1200px) {
   .container .header-inner {
-    width: 240px;
+    width: 300px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2617,7 +2626,7 @@ ul.breadcrumb li+li:last-child {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: calc(100% - 252px);
+  width: calc(100% - 320px);
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
@@ -2642,7 +2651,7 @@ ul.breadcrumb li+li:last-child {
   position: static;
   float: left;
   margin-top: 300px;
-  width: 240px;
+  width: 300px;
   background: #f5f7f9;
   box-shadow: none;
 }
@@ -2841,7 +2850,7 @@ ul.breadcrumb li+li:last-child {
 }
 .sidebar-inner {
   box-sizing: border-box;
-  width: 240px;
+  width: 300px;
   color: #555;
   background: #fff;
   box-shadow: initial;
@@ -2850,7 +2859,7 @@ ul.breadcrumb li+li:last-child {
 }
 .sidebar-inner.affix {
   position: fixed;
-  top: 12px;
+  top: 20px;
 }
 .sidebar-inner.affix-bottom {
   position: absolute;
